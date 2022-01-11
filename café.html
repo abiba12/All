@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="cafe.css">
+     <title>Le Café du Club</title>
+  </head>
+<body>  
+  <h1>La machine à café du club</h1>
+  
+  <p>
+  <img src="index.jpg" alt="c'est du bon café"width=" 200" height=" 200"> <title>c'est du bon Café</title><br>
+    Remplissez ce formulaire puis cliquez pour commander<br>
+    Choisissez votre café: 
+   </p>
+  <select>
+     <option value="mélange maison ">Mélange Maison</option>
+     <option value="bolivia">Bolivia</option>
+     <option value="kenya">  Kenya</option>
+     <option value="guatemala">Guatemala</option>
+     <option value="sénsgal">Sénegal</option>
+  </select><br>
+    
+    Type<br>
+     
+     <input type="radio" name="ouiounon" value="oui" id="oui" />
+     <label for="oui">Café Grain</label><br>
+     <input type="radio" name="ouiounon" value="oui" id="oui" />
+     <label for="oui">Café Moulu</label><br/>
+     
+<fieldset>
+          <legend>Options</legend>
+          <input type="checkbox" name="option" value="Sans Sucre" />Sans Sucre<br/>
+          <input type="checkbox" name="option" value="Avec Sucre" />Avec Sucre<br/>
+          <input type="checkbox" name="option" value="Avec Lait" />Avec Lait<br/> <br/>
+</fieldset>
+    
+ <form action="http://172.18.45.45/web/formulaire.php" method="POST"> 
+ <p>Tapez votre nom et cliquez sur Envoyez pour donner vos avis sur notre sélection de Café : <br/>
+         Prénom:      <input type="text" name="prenom" value=""/><br/>
+         Nom:         <input type="text" name="nom" value=""/><br/>
+         Code Postal: <input type="text" name="Code Postal" value=""/><br/>
+         Ville :      <input type="text" name="Ville" value=""/><br/>
+
+        </p> 
+    
+    
+      Vos Commentaires:<br>
+     <textarea name="commentaire" rows="10" cols="48"></textarea>
+         
+    
+   
+          <input type="submit" value="Envoyer"/>
+          
+      <p>  
+      Voir la Sélection exceptionnelle de nos grains de Café par ici  
+     <a href="https://www.maxicoffee.com/blog/quel-est-le-meilleur-cafe-du-monde/"> Café du Monde</a>
+    </p>
+     
+
+  </body>
+</html> 
